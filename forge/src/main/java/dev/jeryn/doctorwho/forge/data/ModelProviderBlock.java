@@ -2,6 +2,7 @@ package dev.jeryn.doctorwho.forge.data;
 
 import com.google.gson.JsonObject;
 import dev.jeryn.doctorwho.DoctorWhoDeco;
+import dev.jeryn.doctorwho.common.WCBlocks;
 import dev.jeryn.doctorwho.common.blocks.FacingEntityBlock;
 import dev.jeryn.doctorwho.common.blocks.MonitorBlock;
 import dev.jeryn.doctorwho.common.blocks.Nitro9Block;
@@ -77,6 +78,10 @@ public class ModelProviderBlock extends BlockStateProvider {
 
                 if(value instanceof Nitro9Block nitro9Block){
                     customLocation(nitro9Block, new ResourceLocation(DoctorWhoDeco.MOD_ID, "block/nitro_9"));
+                    continue;
+                }
+
+                if(value == WCBlocks.CORAL_CHAIR.get()){
                     continue;
                 }
 

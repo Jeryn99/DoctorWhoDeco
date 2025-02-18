@@ -1,5 +1,3 @@
-- Tardis Refined Sonic Screw Compatibility
-- Fixed some textures being wrong
-- Fixed Mipmaps being lowered by texture not following power of 2
-- Added 11s Sonic Screwdriver
-- Fixed Crash issue
+## WhoCosmetics - v1.20.1-2.1.3
+
+- Bug fix: Fixed dye-able clothing items making the player invisible on Fabric

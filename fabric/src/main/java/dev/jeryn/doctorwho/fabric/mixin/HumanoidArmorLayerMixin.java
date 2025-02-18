@@ -64,7 +64,6 @@ public abstract class HumanoidArmorLayerMixin<T extends LivingEntity, M extends 
                     float f = (float) (j >> 16 & 255) / 255.0F;
                     float g = (float) (j >> 8 & 255) / 255.0F;
                     float h = (float) (j & 255) / 255.0F;
-                    RenderSystem.setShaderColor(f, g, h, 0);
                     this.renderModel(poseStack, multiBufferSource, i, livingEntity, itemStack, equipmentSlot, bl2, humanoidModel, bl, f, g, h, null);
                 } else {
                     this.renderModel(poseStack, multiBufferSource, i, livingEntity, itemStack, equipmentSlot, bl2, humanoidModel, bl, 1.0F, 1.0F, 1.0F, null);
